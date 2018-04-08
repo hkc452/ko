@@ -1,0 +1,36 @@
+{
+  "name": "ko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node scripts/compile.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-plugin-export-default-module-exports": "0.0.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-rax": "^0.5.4",
+    "jest": "^22.4.3",
+    "lerna": "^2.9.1"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "verbose": true,
+    "setupFiles": [
+      "./scripts/jest.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/fixtures/",
+      "/__modules__/",
+      "/__files__/",
+      "/lib/",
+      "/dist/"
+    ]
+  }
+}

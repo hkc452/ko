@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "universal-env": "^0.0.1",
-    "driver-server": "^0.5.4"
+    "driver-server": "^0.0.1",
+    "universal-env": "^0.0.1"
   }
 }
